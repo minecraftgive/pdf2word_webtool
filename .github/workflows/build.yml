@@ -9,6 +9,10 @@ on:
   push:
     tags: ["v*"]
 
+# Allow the workflow to create/update GitHub Releases (needed by tauri-action).
+permissions:
+  contents: write
+
 jobs:
   build:
     strategy:
