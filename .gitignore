@@ -1,0 +1,13 @@
+# Rust / Cargo
+src-tauri/target/
+src-tauri/gen/
+
+# macOS
+.DS_Store
+
+# Node (in case a frontend build step is added later)
+node_modules/
+dist/
+
+# Editor / OS
+*.swp
